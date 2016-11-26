@@ -1,0 +1,23 @@
+#look{
+  text-align: center;
+  background-color: $primary-color;
+  color: $light-color;
+  padding-top: 5em;
+  padding-bottom: 6em;
+  .container{
+    width: 60%;
+    margin: 0 auto;
+    h3.second-heading{
+      text-transform: uppercase;
+      color: $light-color;
+      padding-bottom: 0.5em;
+    }
+    p.feature-detail{
+      padding-bottom: 3em;
+    }
+    a.btn-outline{
+      background-color: $primary-color;
+      color: $light-color;
+    }
+  }
+}

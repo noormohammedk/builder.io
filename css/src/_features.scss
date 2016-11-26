@@ -1,0 +1,12 @@
+#features{
+  background-color: lighten($light-color, 4%);
+  color:darken($light-color, 23%);
+  text-align: left;
+  padding: 6.5em 3em 22em;
+  background-image: url(../images/phone.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  h3.second-heading{
+    padding-bottom: 0.4em;
+  }
+}

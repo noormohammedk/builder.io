@@ -1,0 +1,16 @@
+#demo{
+  padding-top: 3.5em;
+  padding-bottom: 6em;
+  text-align: center;
+  h3.second-heading{
+    padding-top: 2.5em;
+    padding-bottom: 0.5em;
+  }
+   .demo-detail{
+     color: darken($light-color,15%);
+     font-size: 1.3rem;
+     font-weight: bold;
+     line-height:2.5rem;
+     margin: 0;
+   }
+}

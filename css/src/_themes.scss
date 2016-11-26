@@ -1,0 +1,60 @@
+$base-width-size: 1em;
+$primary-color: darken(#A16DC5,15%);
+$light-color: #ECEDEA;
+$appeal-color: #00E0E0;
+$primary-color-white: #fff;
+
+a{
+  text-decoration: none;
+}
+.second-heading{
+  font-size: 2.8rem;
+  color: lighten(#777, 10%);
+  margin: 0em;
+}
+
+.feature-detail{
+  line-height: 1.8em;
+  padding-bottom: 3em;
+}
+
+.btn-custom{
+  font-size: 1.4rem;
+  font-weight: bolder;
+  padding: 1.1em 0;
+  border-radius: 0.2em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.btn-purple{
+  @extend .btn-custom;
+  background-color: $primary-color;
+  color:$primary-color-white;
+  border: 0.2rem solid;
+  border-color: $primary-color;
+  padding-left: 3.8em;
+  padding-right: 3.8em;
+  margin-right: 1em;
+}
+
+.btn-outline{
+  @extend .btn-custom;
+  background-color: $primary-color-white;
+  color: darken($light-color, 30%);
+  border: 0.2rem solid;
+  border-color: darken($light-color,20%);
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+}
+
+.btn-special{
+  @extend .btn-custom;
+  background-color: $appeal-color;
+  color: $primary-color-white;
+  border: 0.2rem solid;
+  border-color: $appeal-color;
+  margin-right: 1em;
+  padding-left: 4.5em;
+  padding-right:4.5em;
+}
