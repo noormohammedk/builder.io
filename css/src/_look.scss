@@ -1,7 +1,6 @@
 #look{
   text-align: center;
   background-color: $primary-color;
-  color: $light-color;
   padding-top: 5em;
   padding-bottom: 6em;
   .container{
@@ -9,15 +8,16 @@
     margin: 0 auto;
     h3.second-heading{
       text-transform: uppercase;
-      color: $light-color;
+      color: lighten($primary-color,50%);
       padding-bottom: 0.5em;
     }
     p.feature-detail{
+      color: lighten($primary-color,50%);
       padding-bottom: 3em;
     }
     a.btn-outline{
       background-color: $primary-color;
-      color: $light-color;
+      color: lighten($primary-color,50%);
     }
   }
 }

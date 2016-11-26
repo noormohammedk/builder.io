@@ -33,7 +33,7 @@ a {
   background-color: #fff;
   color: #a1a698;
   border: 0.2rem solid;
-  border-color: #babeb3;
+  border-color: #efe5f5;
   padding-left: 2.5em;
   padding-right: 2.5em; }
 
@@ -140,7 +140,6 @@ body {
 #look {
   text-align: center;
   background-color: #7c41a4;
-  color: #ECEDEA;
   padding-top: 5em;
   padding-bottom: 6em; }
   #look .container {
@@ -148,13 +147,14 @@ body {
     margin: 0 auto; }
     #look .container h3.second-heading {
       text-transform: uppercase;
-      color: #ECEDEA;
+      color: #f3edf8;
       padding-bottom: 0.5em; }
     #look .container p.feature-detail {
+      color: #f3edf8;
       padding-bottom: 3em; }
     #look .container a.btn-outline {
       background-color: #7c41a4;
-      color: #ECEDEA; }
+      color: #f3edf8; }
 
 #video {
   position: relative; }
