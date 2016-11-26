@@ -3,6 +3,7 @@ $primary-color: darken(#A16DC5,15%);
 $light-color: #ECEDEA;
 $appeal-color: #00E0E0;
 $primary-color-white: #fff;
+$grey-color:#A2A9B2;
 
 a{
   text-decoration: none;
@@ -14,6 +15,8 @@ a{
 }
 
 .feature-detail{
+  font-size: 1.4rem;
+  color: lighten(#777, 10%);
   line-height: 1.8em;
   padding-bottom: 3em;
 }

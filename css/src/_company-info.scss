@@ -1,0 +1,14 @@
+#company-info{
+  background-color: $primary-color-white;
+  color:darken($light-color, 40%);
+  padding: 1em 0;
+  .info{
+    h4{
+      text-transform: uppercase;
+    }
+    p{
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+  }
+}

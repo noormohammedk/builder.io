@@ -1,0 +1,29 @@
+#product-info{
+  padding: 8.5em 0;
+  background-color: lighten($primary-color, 50%);
+  text-align: center;
+  .row{
+    margin: 0 auto;
+    width: 75%
+  }
+  i{
+    font-size: 4rem;
+    padding-bottom: 0.7em;
+    color: $primary-color;
+  }
+  h3{
+    color: $grey-color;
+    padding-bottom: 0.4em;
+  }
+  p.feature-detail{
+    font-size: 1.2rem;
+    color: $grey-color;
+    line-height: 2.5rem;
+    padding-bottom: 0.3em;
+  }
+  h5{
+  color: $primary-color;
+  font-size: 1.1rem;
+  font-weight: bold;
+  }
+}

@@ -7,6 +7,8 @@ a {
   margin: 0em; }
 
 .feature-detail {
+  font-size: 1.4rem;
+  color: #919191;
   line-height: 1.8em;
   padding-bottom: 3em; }
 
@@ -125,7 +127,7 @@ body {
     margin: 0; }
 
 #features {
-  background-color: #f6f6f5;
+  background-color: #f3edf8;
   color: #b3b7ab;
   text-align: left;
   padding: 6.5em 3em 22em;
@@ -165,5 +167,119 @@ body {
     top: 50%;
     right: 50%;
     transform: translate(50%, -50%); }
+
+#product-info {
+  padding: 8.5em 0;
+  background-color: #f3edf8;
+  text-align: center; }
+  #product-info .row {
+    margin: 0 auto;
+    width: 75%; }
+  #product-info i {
+    font-size: 4rem;
+    padding-bottom: 0.7em;
+    color: #7c41a4; }
+  #product-info h3 {
+    color: #A2A9B2;
+    padding-bottom: 0.4em; }
+  #product-info p.feature-detail {
+    font-size: 1.2rem;
+    color: #A2A9B2;
+    line-height: 2.5rem;
+    padding-bottom: 0.3em; }
+  #product-info h5 {
+    color: #7c41a4;
+    font-size: 1.1rem;
+    font-weight: bold; }
+
+#subscription-plan {
+  text-align: center;
+  background-color: #fff;
+  padding: 5.5em; }
+  #subscription-plan .container {
+    width: 75%; }
+    #subscription-plan .container h1.second-heading {
+      text-transform: uppercase;
+      color: #7c41a4;
+      padding-bottom: 0.3em;
+      font-size: 3rem; }
+    #subscription-plan .container p.feature-detail {
+      color: #7c41a4;
+      font-size: 1.3rem;
+      font-weight: bold;
+      margin: 0; }
+    #subscription-plan .container h4 {
+      position: relative;
+      background-color: #7c41a4;
+      color: #fff;
+      text-transform: uppercase;
+      padding: 1.2em 0;
+      margin: -0.1em;
+      border-radius: 0.5em 0.5em 0 0; }
+    #subscription-plan .container .plan {
+      position: relative;
+      border: 2px solid #f3edf8;
+      border-radius: 0.5em;
+      height: 44em; }
+    #subscription-plan .container p.tag {
+      padding: 2em 0;
+      font-size: 1em;
+      color: #6c7682;
+      width: 65%;
+      margin: 0 auto; }
+    #subscription-plan .container h2.second-heading {
+      color: #00c7c7;
+      font-weight: bold;
+      padding-bottom: 1em; }
+      #subscription-plan .container h2.second-heading span {
+        display: inline-block;
+        font-size: 2rem;
+        position: relative;
+        bottom: 0.2em;
+        padding-left: 0.2em; }
+    #subscription-plan .container .plan-summary {
+      border-top: 0.1rem solid #e8eaec;
+      font-weight: bold;
+      color: #b0b6be;
+      padding: 1.5em 1em;
+      margin: 0 4em; }
+    #subscription-plan .container a {
+      display: inline-block;
+      position: absolute;
+      bottom: 1.5em;
+      left: 3.7em;
+      padding-right: 8em;
+      padding-left: 8em; }
+    #subscription-plan .container a.btn-outline {
+      color: #7c41a4;
+      border-color: #7c41a4; }
+    #subscription-plan .container p.stats {
+      font-size: 1.5rem;
+      margin-top: 1.2em;
+      color: #A2A9B2; }
+      #subscription-plan .container p.stats span {
+        color: #7c41a4; }
+
+#image img {
+  width: 100%; }
+
+#buy {
+  background-color: #7c41a4;
+  text-align: center;
+  padding: 4em 0; }
+
+#company-info {
+  background-color: #fff;
+  color: #898f7c;
+  padding: 1em 0; }
+  #company-info .info h4 {
+    text-transform: uppercase; }
+  #company-info .info p {
+    font-size: 1.2rem;
+    font-weight: bold; }
+
+#footer {
+  padding: 4em 0;
+  background-color: #7c41a4; }
 
 /*# sourceMappingURL=styles.css.map */
